@@ -1,0 +1,26 @@
+# Dataset
+data/raw/
+data/processed/
+*.dicom
+*.dcm
+
+# Models
+*.pt
+*.pth
+*.onnx
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
