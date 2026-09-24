@@ -24,3 +24,33 @@ venv/
 
 # Environment
 .env
+# Local data, image exports, and validation artifacts
+data/
+train.csv
+*.[cC][sS][vV]
+*.[dD][cC][mM]
+*.[dD][cC][mM].gz
+*.[dD][iI][cC][oO][mM]
+*.[dD][iI][cC][oO][mM].gz
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.nii
+*.nii.gz
+.eda-work/
+.env.*
+
+# Training artifacts
+models/
+weights/
+checkpoints/
+*.ckpt
+*.safetensors
+*.h5
+*.hdf5
+*.keras
+*.pkl
+*.joblib
+*.bin
