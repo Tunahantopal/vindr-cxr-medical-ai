@@ -25,7 +25,7 @@ venv/
 # Environment
 .env
 # Local data, image exports, and validation artifacts
-data/
+/data/
 train.csv
 *.[cC][sS][vV]
 *.[dD][cC][mM]
